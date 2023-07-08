@@ -24,7 +24,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 20vh;
+    min-height: 0px;
     background-color: #FF9900;
 }
 
@@ -112,6 +112,9 @@ nav {
     border-radius: 50%;
     background-color: #FF9900; /*Deep yellow background color*/
     color: white;
+    position: relative;
+    right: -2.2rem;
+    top: 3rem;
 }
 
 h2 {
@@ -138,7 +141,7 @@ h2 {
 footer {
     background-color: #ff7b00;
     color: #FFFFFF;
-    padding: 670px;
+    padding: 60px;
     text-align: center;
 }
 
