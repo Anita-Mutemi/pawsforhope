@@ -101,7 +101,7 @@ nav {
     color: black;
     height: 9cm;
     margin-bottom: 9%;
-    margin-left: 5%;
+    margin-left: 10%;
     position: relative;
     top: 2rem;
     margin-top: 5%;
@@ -131,7 +131,7 @@ h3 {
     margin-top: -799px;
     margin-left: 300px;
     position: relative;
-    right: -42rem;
+    right: -39rem;
     top: 10rem;
 }
 
@@ -157,6 +157,11 @@ main {
 
 #dogBreedsSection {
     height: 15cm;
+}
+
+#breedsTitle{
+    position: relative;
+    right: 7rem;
 }
 
 footer {
