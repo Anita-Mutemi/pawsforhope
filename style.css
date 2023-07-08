@@ -60,7 +60,7 @@ nav {
     letter-spacing: 3px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     body {
         width: 100vh;
     }
@@ -74,7 +74,7 @@ nav {
     #navTab {
         position: fixed;
         right: 0px;
-        height: 92vh;
+        height: 100vh;
         top: 8vh;
         background-color: #5D4954;
         display: flex;
