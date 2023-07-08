@@ -147,8 +147,9 @@ h3 {
 }
 
 main {
-    padding: 10px;
-    margin: 10px 0;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
     text-indent: 5%;
 }
 
@@ -172,12 +173,13 @@ main {
 footer {
     background-color: #FF9900;
     color: black;
-    padding: 80px;
+    padding-top: 100px;
+    padding-bottom: 80px;
     text-align: center;
 }
 
 #footerLogo {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -193,10 +195,15 @@ footer {
     margin: 0 10px;
 }
 
+.footNote{
+    padding-top: 10px;
+}
+
 #footerNav a {
     color: black;
     text-decoration: none;
     font-size: 23px;
+    line-height: 1.7; /* Add line-height property */
 }
 
 #footerContact {
@@ -204,7 +211,7 @@ footer {
 }
 
 #footerContact p {
-    margin-bottom: 5px;
+    margin-bottom: 10px; /* Increase margin-bottom for spacing */
     font-size: 14px;
 }
 
@@ -212,7 +219,9 @@ footer {
     color: black;
     text-decoration: none;
     font-size: 14px;
+    line-height: 1.5; /* Add line-height property */
 }
+
 #testimonialsTitle{
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -255,7 +264,7 @@ footer {
 
 .form-group{
     text-align: center;
-    margin: 40px;
+    margin-bottom: 40px;
 }
 
 #dogType,

@@ -36,7 +36,6 @@ fetch('db.json')
       dogBreedsGrid.appendChild(card);
     });
 
-
     // Page 3 - Testimonials
     const testimonialsList = document.getElementById('testimonialsList');
     data.page3.testimonials.forEach(testimonial => {
@@ -59,10 +58,20 @@ fetch('db.json')
     document.getElementById('footerAdoptionProcessLink').href = data.page1.links[1].url;
     document.getElementById('footerTestimonialsLink').href = data.page1.links[2].url;
     document.getElementById('footerJoinUsLink').href = data.page1.links[3].url;
+
+    const footerContact = document.getElementById('footerContact');
+    const emailParagraph = document.createElement('p');
+    emailParagraph.innerText = `Email: ${data.page1.email}`;
+    footerContact.appendChild(emailParagraph);
+
+    const phoneParagraph = document.createElement('p');
+    phoneParagraph.innerText = `Phone: ${data.page1.phone}`;
+    footerContact.appendChild(phoneParagraph);
   })
   .catch(error => {
     console.log('An error occurred while fetching data:', error);
   });
+
 
 // Example: PATCH request to update the available count of a breed
 fetch('db.json')
