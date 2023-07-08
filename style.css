@@ -161,7 +161,7 @@ main {
 
 #breedsTitle{
     position: relative;
-    right: 7rem;
+    right: 6rem;
 }
 
 footer {
@@ -207,4 +207,15 @@ footer {
     color: black;
     text-decoration: none;
     font-size: 14px;
+}
+#testimonialsTitle{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+#testimonialsList{
+    display: flex;
+    position: relative;
+    right: -18rem;
+    
 }
