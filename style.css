@@ -16,28 +16,32 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 20vh;
+    min-height: 30vh;
     background-color: #FF9900;
 }
 
 #dogLogo {
     height: auto;
-    width: 180px;
+    width: 270px;
 }
 
 #logo {
-    color: #EEE;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 23px;
+    font-size: 36px;
     font-weight: bold;
+    position: relative;
+    right: 4rem;
 }
 
 #navTab {
     display: flex;
     justify-content: space-around;
     width: 50%;
-    font-size: 20px;
+    height: 10%;
+    font-size: 24px;
+    position: relative;
+    right: 1rem;
 }
 
 #navTab li {
@@ -45,7 +49,7 @@ nav {
 }
 
 #navTab a {
-    color: white;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 3px;
