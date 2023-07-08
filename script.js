@@ -25,10 +25,13 @@ fetch('db.json')
     const testimonialsList = document.getElementById('testimonialsList');
     data.page3.testimonials.forEach(testimonial => {
       const div = document.createElement('div');
+      const names = document.createElement('p');
       const quote = document.createElement('p');
       const author = document.createElement('p');
+      names.innerText = `${testimonial.name}`;
       quote.innerText = testimonial.quote;
-      author.innerText = `- ${testimonial.name}, ${testimonial.location}`;
+      author.innerText = ` ${testimonial.location}`;
+      div.appendChild(names);
       div.appendChild(quote);
       div.appendChild(author);
       testimonialsList.appendChild(div);
