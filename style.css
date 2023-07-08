@@ -95,40 +95,74 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px; /* Adjust the width as needed */
-    height: 300px; /* Adjust the height as needed */
+    width: 400px; /* Adjust the width as needed */
     border-radius: 50%;
-    background-color: #FF9900;
-    border-radius: 50%;
-    background-color: #FF9900;
-    color: white;
-    height: 15cm;
+    border: 15px solid #FF9900;
+    color: black;
+    height: 9cm;
+    margin-bottom: 9%;
+    margin-left: 5%;
+    position: relative;
+    top: 2rem;
+    margin-top: 5%;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 60px;
+    font-size: 30px;
     text-align: center;
 }
 
 #welcomeText {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 30px;
     justify-content: space-between;
 }
 
 #dogIcon {
-    width: 100%;
-    max-width: 300px;
+    width: 1000px;
     height: auto;
-    margin-top: 20px;
+    margin-top: -799px;
     margin-left: 300px;
+    position: relative;
+    right: -42rem;
+    top: 10rem;
+}
+
+#dogImag{
+    position: relative;
+    width: 200px;
+    top: -9rem;
+    margin-bottom: -214px;
+}
+
+main {
+    padding: 10px;
+    margin: 10px 0;
+    text-indent: 5%;
+}
+
+#testimonialsSection {
+    height: 15cm;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+#dogBreedsSection {
+    height: 15cm;
 }
 
 footer {
     background-color: #FF9900;
-    color: #FFFFFF;
-    padding: 70px;
+    color: black;
+    padding: 80px;
     text-align: center;
 }
 
@@ -150,9 +184,9 @@ footer {
 }
 
 #footerNav a {
-    color: #FFFFFF;
+    color: black;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 23px;
 }
 
 #footerContact {
@@ -165,27 +199,7 @@ footer {
 }
 
 #footerContact a {
-    color: #FFFFFF;
+    color: black;
     text-decoration: none;
     font-size: 14px;
-}
-
-main{
-    padding: 10px;
-    margin-top: 10px;
-    margin-inline-start: 10px;
-    margin-bottom: 10px;
-    text-indent: 5%;
-}
-
-#testimonialsSection{
-    height: 15cm;
-    display: flex;
-    flex-direction: column;
-    margin-top: 3%;
-
-}
-
-#dogBreedsSection{
-    height: 15cm;
 }
