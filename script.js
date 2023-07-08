@@ -21,7 +21,7 @@ fetch('db.json')
       img.src = breed.img;
       card.appendChild(img);
 
-      const name = document.createElement('h3');
+      const name = document.createElement('h4');
       name.innerText = breed.name;
       card.appendChild(name);
 
