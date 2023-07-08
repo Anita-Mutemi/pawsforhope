@@ -11,15 +11,35 @@ fetch('db.json')
     document.getElementById('welcomeText').innerText = data.page1.text;
 
     // Page 2 - Dog Breeds
-    const dogBreedsList = document.getElementById('dogBreedsList');
+    const dogBreedsGrid = document.getElementById('dogBreedsGrid');
+
     data.page2.breeds.forEach(breed => {
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.href = '#';
-      a.innerText = breed.name;
-      li.appendChild(a);
-      dogBreedsList.appendChild(li);
+      const card = document.createElement('div');
+      card.classList.add('breedCard');
+
+      const img = document.createElement('img');
+      img.src = breed.img;
+      card.appendChild(img);
+
+      const name = document.createElement('h3');
+      name.innerText = breed.name;
+      card.appendChild(name);
+
+      const about = document.createElement('p');
+      about.innerText = breed.about;
+      card.appendChild(about);
+
+      const available = document.createElement('p');
+      available.innerText = 'Available: ' + breed.available;
+      card.appendChild(available);
+
+      const button = document.createElement('button');
+      button.innerText = 'Adopt';
+      card.appendChild(button);
+
+      dogBreedsGrid.appendChild(card);
     });
+
 
     // Page 3 - Testimonials
     const testimonialsList = document.getElementById('testimonialsList');

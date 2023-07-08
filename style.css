@@ -156,12 +156,13 @@ main {
 }
 
 #dogBreedsSection {
-    height: 15cm;
+    height: 17cm;
 }
 
 #breedsTitle{
     position: relative;
     right: 6rem;
+    margin-bottom: 2rem;
 }
 
 footer {
@@ -210,12 +211,42 @@ footer {
 }
 #testimonialsTitle{
     margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin-top: -1rem;
 }
 
 #testimonialsList{
     display: flex;
     position: relative;
     right: -18rem;
-    
+    top: 7rem;
+    text-align: center;
+}
+
+#dogBreedsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.breedCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 100%; /* Add this to ensure each breed card takes up the same height */
+}
+
+.breedCard img {
+    width: 100%;
+    height: auto;
+}
+
+.breedCard h3 {
+    margin-top: 10px;
+}
+
+.breedCard p {
+    margin-top: 5px;
+}
+
+.breedCard button {
+    margin-top: 10px;
 }
