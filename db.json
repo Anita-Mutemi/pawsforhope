@@ -1,0 +1,95 @@
+{
+    "page1": {
+      "logo": "Paws for Hope",
+      "links": [
+        {
+          "name": "Dog Breeds",
+          "url": "/dog-breeds"
+        },
+        {
+          "name": "Adoption Process",
+          "url": "/adoption-process"
+        },
+        {
+          "name": "Testimonials",
+          "url": "/testimonials"
+        },
+        {
+          "name": "Join Us",
+          "url": "/join-us"
+        }
+      ],
+      "text": "Welcome to HomeBound: Where Stray Dogs Find Forever Happiness!",
+      "email": "info@pawsforhope.org",
+      "newsletter": "subscribe@pawsforhope.org",
+      "phone": "+1 800 555 1212",
+      "website": "www.pawsforhope.org"
+    },
+    "page2": {
+      "breeds": [
+        {
+          "name": "Rottweiler",
+          "about": "The Rottweiler is a large, powerful dog breed that was originally bred as a working dog. They are known for their loyalty, intelligence, and protective instincts.",
+          "available": 4
+        },
+        {
+          "name": "Rhodesian Ridgeback",
+          "about": "The Rhodesian Ridgeback is a large, muscular dog breed that was originally bred to track and hunt lions. They are known for their independence, athleticism, and loyalty.",
+          "available": 3
+        },
+        {
+          "name": "Basenji",
+          "about": "The Basenji is a small, barkless dog breed that is native to Africa. They are known for their playful, energetic personality and their unique yodel-like bark.",
+          "available": 4
+        },
+        {
+          "name": "Labrador Retriever",
+          "about": "The Labrador Retriever is a large, friendly dog breed that is one of the most popular breeds in the world. They are known for their intelligence, loyalty, and trainability.",
+          "available": 0
+        },
+        {
+          "name": "English Springer Spaniel",
+          "about": "The English Springer Spaniel is a medium-sized, sporting dog breed that was originally bred to flush game birds. They are known for their friendly, energetic personality and their soft, wavy coat.",
+          "available": 1
+        },
+        {
+          "name": "Chihuahua",
+          "about": "The Chihuahua is a tiny, toy dog breed that is one of the smallest dog breeds in the world. They are known for their independent, feisty personality and their long, silky hair.",
+          "available": 7
+        },
+        {
+          "name": "Neapolitan Mastiff",
+          "about": "The Neapolitan Mastiff is a large, mastiff-type dog breed that is native to Italy. They are known for their powerful build, their gentle temperament, and their wrinkly skin.",
+          "available": 3
+        },
+        {
+          "name": "German Shepherd",
+          "about": "The German Shepherd is a large, working dog breed that was originally bred as a herding dog. They are known for their intelligence, loyalty, and trainability.",
+          "available": 2
+        }
+      ]
+    },
+    "page3": {
+        "testimonials": [
+            {
+                "image":"./images/79-799958_female-profile-round-circles-users-user-female-icon-removebg-preview.png",
+                "name": "Jane",
+                "location": "New York City, USA",
+                "quote": "Paws for Hope provided a life-changing experience to me. Fluffy Max brought joy and happiness daily. I highly recommend Paws for Hope to anyone looking to adopt a dog and plans to return for future adoptions."
+            },
+            {
+                "Image":"",
+                "name": "Patel",
+                "location": "London, UK",
+                "quote": "Adopting Bella from Paws for Hope was the best decision, transforming the home into a loving space. The team's dedication to rescuing and rehoming dogs is greatly appreciated. Gracias, Paws for Hope!"
+            },
+            {
+                "Image":"",
+                "name": "Patel",
+                "location": "London, UK",
+                "quote": "Adopting Luna has filled my life with love and happiness. The adoption process was seamless, and your support has been outstanding."
+            }
+      ]
+    }
+  }
+  
