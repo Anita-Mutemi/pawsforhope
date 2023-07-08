@@ -260,7 +260,23 @@ footer {
 
 #dogType,
 #reason{
-    width: 400px;
+    width: 390px;
     height: 50px;
     margin-bottom: -12px;
+}
+
+#location{
+    width: 270px;
+}
+
+#phone{
+    width: 249.7px;
+}
+
+#name{
+    width: 210px;
+}
+
+#email{
+    width: 168px;
 }
