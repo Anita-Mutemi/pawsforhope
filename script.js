@@ -33,10 +33,6 @@ fetch('db.json')
       available.innerText = 'Available: ' + breed.available;
       card.appendChild(available);
 
-      const button = document.createElement('button');
-      button.innerText = 'Adopt';
-      card.appendChild(button);
-
       dogBreedsGrid.appendChild(card);
     });
 
