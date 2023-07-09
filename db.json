@@ -16,48 +16,57 @@
         },
         {
           "name": "Join Us",
-          "url": "#join-us"
+          "url": "#footerNav"
         }
-      ]
+      ],
+      "text": "Where Stray Dogs Find Forever Happiness!"
     },
     "page2": {
       "breeds": [
         {
+          "img" : "./images/maxresdefault-removebg-preview.png",
           "name": "Rottweiler",
           "about": "The Rottweiler is a large, powerful dog breed that was originally bred as a working dog. They are known for their loyalty, intelligence, and protective instincts.",
           "available": 4
         },
         {
+          "img" : "./images/istockphoto-1366023382-612x612-removebg-preview (2).png",
           "name": "Rhodesian Ridgeback",
           "about": "The Rhodesian Ridgeback is a large, muscular dog breed that was originally bred to track and hunt lions. They are known for their independence, athleticism, and loyalty.",
           "available": 3
         },
         {
+          "img" : "./images/download-removebg-preview.png",
           "name": "Basenji",
           "about": "The Basenji is a small, barkless dog breed that is native to Africa. They are known for their playful, energetic personality and their unique yodel-like bark.",
           "available": 4
         },
         {
+          "img" : "./images/images-removebg-preview (1).png",
           "name": "Labrador Retriever",
           "about": "The Labrador Retriever is a large, friendly dog breed that is one of the most popular breeds in the world. They are known for their intelligence, loyalty, and trainability.",
           "available": 0
         },
         {
+          "img" : "./images/Springer-Spaniel-black-580x386-removebg-preview.png",
           "name": "English Springer Spaniel",
           "about": "The English Springer Spaniel is a medium-sized, sporting dog breed that was originally bred to flush game birds. They are known for their friendly, energetic personality and their soft, wavy coat.",
           "available": 1
         },
         {
+          "img" : "./images/image-removebg-preview (3).png",
           "name": "Chihuahua",
           "about": "The Chihuahua is a tiny, toy dog breed that is one of the smallest dog breeds in the world. They are known for their independent, feisty personality and their long, silky hair.",
           "available": 7
         },
         {
+          "img" : "./images/303710Neapolitan-Mastiff-removebg-preview (1).png",
           "name": "Neapolitan Mastiff",
           "about": "The Neapolitan Mastiff is a large, mastiff-type dog breed that is native to Italy. They are known for their powerful build, their gentle temperament, and their wrinkly skin.",
           "available": 3
         },
         {
+          "img" : "./images/images-removebg-preview (2).png",
           "name": "German Shepherd",
           "about": "The German Shepherd is a large, working dog breed that was originally bred as a herding dog. They are known for their intelligence, loyalty, and trainability.",
           "available": 2
@@ -67,19 +76,16 @@
     "page3": {
         "testimonials": [
             {
-                "image":"./images/79-799958_female-profile-round-circles-users-user-female-icon-removebg-preview.png",
                 "name": "Jane",
                 "location": "New York City, USA",
                 "quote": "Paws for Hope provided \n a life-changing experience to me. \n Fluffy Max brought joy and happiness daily. \n I highly recommend Paws for Hope to anyone \n looking to adopt a dog and plans to return \n for future adoptions."
             },
             {
-                "Image":"",
                 "name": "John",
                 "location": "London, UK",
                 "quote": "Adopting Bella from Paws for Hope \n was the best decision, \n transforming the home into a loving space. \n The team's dedication to rescuing and rehoming \n dogs is greatly appreciated. Gracias, Paws for Hope!"
             },
             {
-                "Image":"",
                 "name": "Spritzinger",
                 "location": "Devon, England.",
                 "quote": "Adopting Luna has filled my life \n with love and happiness. The adoption process \n was seamless, and your support has been outstanding."

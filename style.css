@@ -245,9 +245,12 @@ footer {
 
 #dogBreedsGrid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
     text-align: center;
+    position: relative;
+    right: 0rem;
+    padding-left: -1.3rem;
 }
 
 .breedCard {
