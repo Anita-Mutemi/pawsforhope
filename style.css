@@ -159,7 +159,7 @@ main {
 }
 
 #testimonialsSection {
-    height: 15cm;
+    height: 14cm;
     display: flex;
     flex-direction: column;
     margin-top: 3%;
@@ -228,15 +228,14 @@ footer {
 }
 
 #testimonialsTitle{
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 #testimonialsList{
     display: flex;
     position: relative;
     right: -18rem;
-    top: 7rem;
+    top: 9.5rem;
     text-align: center;
 }
 
@@ -297,4 +296,25 @@ footer {
 
 #firstContainer{
     margin-left: 5%;
+}
+
+#firstProf{
+    position: absolute;
+    top: 142rem;
+    right: 80.2rem;
+    width: 6%;
+}
+
+#secondProf{
+    position: absolute;
+    top: 141.7rem;
+    right: 55rem;
+    width: 4.4%;
+}
+
+#thirdProf{
+    position: absolute;
+    top: 142.2rem;
+    right: 27rem;
+    width: 4.7%;
 }
