@@ -4,26 +4,21 @@
       "links": [
         {
           "name": "Dog Breeds",
-          "url": "/dog-breeds"
+          "url": "#dogBreedsSection"
         },
         {
           "name": "Adoption Process",
-          "url": "/adoption-process"
+          "url": "#adoptionForm"
         },
         {
           "name": "Testimonials",
-          "url": "/testimonials"
+          "url": "#testimonialsSection"
         },
         {
           "name": "Join Us",
-          "url": "/join-us"
+          "url": "#join-us"
         }
-      ],
-      "text": "Where Stray Dogs Find Forever Happiness!",
-      "email": "info@pawsforhope.org",
-      "newsletter": "subscribe@pawsforhope.org",
-      "phone": "+1 800 555 1212",
-      "website": "www.pawsforhope.org"
+      ]
     },
     "page2": {
       "breeds": [

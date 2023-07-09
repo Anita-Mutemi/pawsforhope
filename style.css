@@ -202,6 +202,7 @@ footer {
 
 .footNote{
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 #footerNav a {
@@ -229,6 +230,9 @@ footer {
 
 #testimonialsTitle{
     margin-bottom: 3rem;
+    position: relative;
+    top: -0.3rem;
+    right: 3rem;
 }
 
 #testimonialsList{
@@ -268,14 +272,14 @@ footer {
 
 .form-group{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 38px;
 }
 
 #dogType,
 #reason{
     width: 390px;
     height: 50px;
-    margin-bottom: -12px;
+    margin-bottom: -5px;
 }
 
 #location{

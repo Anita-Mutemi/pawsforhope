@@ -54,15 +54,6 @@ fetch('db.json')
 
     // Footer
     document.getElementById('footerLogo').innerText = data.page1.logo;
-    document.getElementById('footerDogBreedsLink').href = data.page1.links[0].url;
-    document.getElementById('footerAdoptionProcessLink').href = data.page1.links[1].url;
-    document.getElementById('footerTestimonialsLink').href = data.page1.links[2].url;
-    document.getElementById('footerJoinUsLink').href = data.page1.links[3].url;
-
-    const footerContact = document.getElementById('footerContact');
-    const emailParagraph = document.createElement('p');
-    emailParagraph.innerText = `Email: ${data.page1.email}`;
-    footerContact.appendChild(emailParagraph);
 
     const phoneParagraph = document.createElement('p');
     phoneParagraph.innerText = `Phone: ${data.page1.phone}`;
