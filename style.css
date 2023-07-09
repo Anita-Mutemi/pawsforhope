@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+
 }
 
 body {
@@ -46,7 +48,7 @@ nav {
     height: 10%;
     font-size: 24px;
     position: relative;
-    right: 1rem;
+    right: 2.2rem;
 }
 
 #navTab li {
@@ -132,18 +134,21 @@ h3 {
 #dogIcon {
     width: 1000px;
     height: auto;
-    margin-top: -799px;
+    margin-top: -999px;
     margin-left: 300px;
     position: relative;
-    right: -39rem;
-    top: 10rem;
+    right: -19rem;
+    top: 35rem;
 }
 
 #dogImag{
-    position: relative;
-    width: 200px;
-    top: -9rem;
-    margin-bottom: -214px;
+    position: absolute;
+    z-index: 1;
+    width: 230px;
+    top: 22rem;
+    right: 78rem;
+    opacity: 2;
+    margin-bottom: 20px;
 }
 
 main {
@@ -288,4 +293,8 @@ footer {
 
 #email{
     width: 168px;
+}
+
+#firstContainer{
+    margin-left: 5%;
 }
