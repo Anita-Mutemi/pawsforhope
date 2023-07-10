@@ -1,4 +1,16 @@
 # Paws for Hope
+By Anita Mutemi
+Paws for Hope dog adoption site
+
+# Table of Content
+- Description
+- Installation Requirement
+- Technology Used
+- Reference
+- License
+- Authors Info
+
+# Description
 Paws for Hope is an adoption site where stray dogs are adopted and given for adoption to new families. The person who wants to adopt should give a reason for adoption.
 
 # Requirements
